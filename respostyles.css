@@ -1,0 +1,340 @@
+.anti-webkit {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    background: var(--body-gradient);
+    font-family: "Poppins", sans-serif;
+}
+body {
+    margin: 0;
+    line-height: inherit
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-transp {
+    background-color: transparent;
+}
+
+.bg-bla5 {
+    background-color: var(--bg-bla5);
+}
+
+.bg-bla10 {
+    background-color: var(--bg-bla10);
+}
+
+.bg-cl {
+    --tw-bg-opacity: 1;
+    background-color: rgb(218 41 28 / var(--tw-bg-opacity));
+}
+
+.bg-wh {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-st-accept {
+    background-color: var(--st-accept-bg);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-c {
+    flex-direction: column;
+}
+
+.flex-w {
+    flex-wrap: wrap;
+}
+
+.font-b {
+    font-weight: 700;
+}
+
+.font-n {
+    font-weight: 400;
+}
+
+.f-width {
+width: 100%;
+}
+
+.f1 {
+    flex: 1 1 0%;
+}
+
+.f-height {
+height: 100%;
+}
+
+.gap3 {
+    gap: var(--sp-3);
+}
+
+.gap4 {
+    gap: var(--sp-4);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.j-btw {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+h2 {
+    margin: 0;
+}
+
+.h12 {
+    height: 3rem;
+}
+
+.h16 {
+    height: 4rem;
+}
+
+.h32 {
+    height: 8rem;
+}
+
+.i-center {
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.i-block {
+    display: inline-block;
+}
+
+.lead24 {
+    line-height: 24px;
+}
+
+.lead32 {
+    line-height: 32px;
+}
+
+.lead40 {
+    line-height: 40px;
+}
+
+.lead64 {
+    line-height: 64px;
+}
+
+.m4 {
+    margin: var(--sp-4);
+}
+
+.mb2 {
+    margin-bottom: var(--sp-2);
+}
+
+.mb4 {
+    margin-bottom: var(--sp-4);
+}
+
+.mb6 {
+    margin-bottom: var(--sp-6);
+}
+
+.mnr4 {
+    margin-left: var(--sp-4);
+    margin-right: var(--sp-4)
+}
+
+.mr2 {
+    margin-right: var(--sp-2);
+}
+
+.mt-6 {
+    margin-top: var(--sp-6);
+}
+
+.min-h {
+    min-height: var(--sp-0);
+}
+
+.min-hscreen {
+min-height: 100vh;
+}
+
+.min-w {
+    min-width: 160px;
+}
+
+.min-w100 {
+    min-width: 100px;
+}
+
+.mscrol-con {
+    scrollbar-width: thin;
+    scrollbar-color: #000 transparent;
+}
+
+.obj-c {
+    object-fit: contain;
+}
+
+.overfy {
+    overflow-y: auto;
+}
+
+.p4 {
+    padding: var(--sp-4);
+}
+
+.p6 {
+    padding: var(--sp-6);
+}
+
+.pdlr3 {
+    padding-left: var(--sp-3);
+    padding-right: var(--sp-3);
+}
+
+.round-lg {
+    border-radius: .5rem;
+}
+
+:root{
+--background: 0 0% 100%;
+--bg-bla5: rgba(0, 0, 0, .05);
+--bg-bla10: rgba(0, 0, 0, .1);
+--st-accept-bg: #119718;
+--body-gradient: linear-gradient(50deg, rgba(255, 85, 51, .12) 60%, rgba(0, 0, 0, .08) 70%);
+--foreground: 0 0% 3.9%;
+--txt-bla100: #000;
+--txt-wh100: #fff;
+--sp-5: 20px;
+--sp-7: 28px;
+--sp-8: 40px;
+--sp-6: 24px;
+--sp-4: 16px;
+--sp-3: 12px;
+--sp-2: 8px;
+--sp-1: 4px;
+--sp-0: 0px;
+}
+
+.sub-tr1 {
+    letter-spacing: -.01em;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+.txt-bla100 {
+    color: var(--txt-bla100);
+}
+
+.txt16 {
+    font-size: 16px;
+}
+
+.txt20 {
+    font-size: 20px;
+}
+
+.txt24 {
+    font-size: 24px;
+}
+
+.track1 {
+    letter-spacing: -.01em;
+}
+
+.track2 {
+    letter-spacing: -.02em;
+}
+
+.track3 {
+    letter-spacing: -.03em;
+}
+
+.txt-wh100 {
+    color: var(--txt-wh100);
+}
+
+.w {
+    width: 385px;
+}
+
+.w12 {
+    width: 3rem;
+}
+
+*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb
+}
+
+* {
+    border-color: hsl(var(--border))
+}
+
+@media (min-width: 768px) {
+    .md\:txt18 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:txt28 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .md\:txt22 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:txt20 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:txt24 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .lg\:txt32 {
+        font-size: 32px;
+    }
+}
